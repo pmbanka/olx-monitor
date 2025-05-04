@@ -7,7 +7,7 @@ docker build -t olx-monitor .
 Run docker:
 
 ```
-docker run --rm --env-file .env olx-monitor
+docker run -v $(pwd)/listings:/app/listings --env-file .env olx-monitor
 ```
 
 Local:
