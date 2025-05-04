@@ -1,0 +1,14 @@
+{
+  "name": "olx-monitor",
+  "version": "1.0.0",
+  "description": "OLX listing monitor",
+  "main": "check-olx.js",
+  "scripts": {
+    "start": "node check-olx.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "nodemailer": "^6.10.1",
+    "puppeteer": "^24.7.2"
+  }
+}
