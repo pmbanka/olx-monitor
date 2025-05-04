@@ -20,4 +20,4 @@ RUN npm ci
 
 COPY . .
 
-CMD ["npm", "start"]
+CMD ["node", "check-olx.js"]
